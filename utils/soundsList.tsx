@@ -1,6 +1,6 @@
 import { IoIosWater } from 'react-icons/io';
 import { FaPlane, FaWind, FaSpaceShuttle } from 'react-icons/fa';
-import { GiMeditation, GiNightSleep, GiFurnace } from 'react-icons/gi';
+import { GiMeditation, GiNightSleep, GiFurnace, GiHummingbird, GiBigWave } from 'react-icons/gi';
 import { SiCoffeescript } from 'react-icons/si';
 
 const soundsList = [
@@ -43,6 +43,16 @@ const soundsList = [
     name: 'furnace',
     src: 'furnace.mp3',
     icon: <GiFurnace size="70" />,
+  },
+  {
+    name: 'birds',
+    src: 'birds.mp3',
+    icon: <GiHummingbird size="70" />,
+  },
+  {
+    name: 'waves',
+    src: 'waves.mp3',
+    icon: <GiBigWave size="70" />,
   },
 ];
 
